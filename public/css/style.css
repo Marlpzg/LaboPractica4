@@ -124,4 +124,20 @@ b{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
+    font-size: 0.8em;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.grid-item .icon{
+    text-align: center;
+    font-size: 3em;
+}
+
+h4{
+    margin: 0;
 }
